@@ -41,13 +41,13 @@
 
 /*Home*/
 #Home {
-  background-image: url(https://warroom.securestate.com/wp-content/uploads/2016/10/coding.jpg);
+  background-image: url("../Images/Image_Home.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position:center; 
+  background-position:center;
   display:block;
   padding: 50px;
   margin-top: 60px;
@@ -165,9 +165,9 @@
 
 /*Mobile*/
 @media only screen and (max-width: 768px) and (min-width: 376px) {
-    body { 
+    body {
      font-size: 1em;
-     padding:0;      
+     padding:0;
   }
   .container {
       margin-right:0;
@@ -199,8 +199,8 @@
   }
 }
 @media only screen and (max-width: 991px) and (min-width: 768px) {
-    body { 
-     font-size: 1.2em;      
+    body {
+     font-size: 1.2em;
   }
   #Title_About {
     font-size: 50px;
@@ -217,9 +217,9 @@
   }
 }
 @media only screen and (max-width: 376px) {
-   body { 
+   body {
      font-size: 1em;
-     padding:0;      
+     padding:0;
   }
   .container {
       margin-right:0;
