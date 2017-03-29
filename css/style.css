@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Permanent+Marker|Poiret+One|Special+Elite');
+/*
+  Fonts:
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Special Elite', cursive;
+*/
+  body{
+  background-color:rgb(158, 158, 158);
+}
+
+/*NavBar*/
+#Name {
+  margin-top: 10px;
+}
+#Nam {
+  color: white;
+  font-family: 'Special Elite', cursive;
+}
+#Buttons {
+  color: white;
+  font-family: 'Special Elite', cursive;
+}
+#Buttons2 {
+  color: white;
+  font-family: 'Special Elite', cursive;
+}
+.navbar{
+  padding : 0 25px;
+  font-size:2.3em;
+  border: none;
+  -webkit-box-shadow: 0px 7px 12px 2px rgba(0,0,0,0.46);
+  -moz-box-shadow: 0px 7px 12px 2px rgba(0,0,0,0.46);
+  box-shadow: 0px 7px 12px 2px rgba(0,0,0,0.46);
+}
+#Padding {
+  padding: 10px 0 0 0;
+}
+/*End NavBar*/
+
+/*Home*/
+#Home {
+  background-image: url(https://warroom.securestate.com/wp-content/uploads/2016/10/coding.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position:center; 
+  display:block;
+  padding: 50px;
+  margin-top: 60px;
+  height: 650px;
+}
+#Quote {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 7em;
+  text-align: Center;
+  color: white;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 1);
+}
+
+
+/*End Home*/
+
+/*About*/
+#About {
+  color:white;
+  font-family: 'Special Elite', cursive;
+  font-size: 2.2em;
+  text-align: justify;
+  display:block;
+  background-color: rgb(50, 50, 50);
+  padding: 40px;
+}
+.container {
+  -webkit-box-shadow: 0px 7px 7px 2px rgba(0,0,0,0.46);
+  -moz-box-shadow: 0px 7px 7px 2px rgba(0,0,0,0.46);
+  box-shadow: 0px 7px 7px 2px rgba(0,0,0,0.46);
+}
+#Title_About {
+  text-align:center;
+  font-size: 50px;
+}
+#Image_1 {
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 7px 7px 2px rgba(0,0,0,0.46);
+  -moz-box-shadow: 0px 7px 7px 2px rgba(0,0,0,0.46);
+  box-shadow: 0px 7px 7px 2px rgba(0,0,0,0.46);
+  margin-top: 70px ;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+}
+/*End About*/
+
+/*Portofolio*/
+
+#Portofolio {
+  color:white;
+  font-family: 'Special Elite', cursive;
+  text-align: justify;
+  display:block;
+  background-color: rgb(90, 90, 90);
+  padding: 40px;
+}
+#Title_Portofolio {
+  text-align:center;
+  font-size: 50px;
+  margin-bottom:40px;
+}
+#PT {
+  width: 100%;
+}
+#PS {
+  color: white;
+  font-size: 2em;
+  Text-align:center;
+}
+/*End Portofolio*/
+
+/*Contact*/
+
+#Contact {
+  color:white;
+  font-family: 'Special Elite', cursive;
+  display:block;
+  background-color: rgb(120, 120, 120);
+  padding: 40px;
+}
+#Title_Contact {
+  text-align:center;
+  font-size: 50px;
+}
+
+#Icon {
+  color: black;
+}
+#Feedback {
+  color:white;
+  font-family: 'Special Elite', cursive;
+  font-size: 2.2em;
+  text-align: center;
+  margin-top: 70px;
+}
+#Social{
+  display: block;
+  text-align:center;
+  margin-top: 30px;
+}
+/*End Contact*/
+
+#Made {
+  color:white;
+  font-family: 'Special Elite', cursive;
+  font-size: 2.2em;
+  text-align: center;
+  margin-top:30px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) and (min-width: 376px) {
+    body { 
+     font-size: 1em;
+     padding:0;      
+  }
+  .container {
+      margin-right:0;
+      margin-left:0;
+    }
+  #Home {
+    height: 500px;
+  }
+  #Quote {
+    font-size: 4em;
+  }
+  #About {
+    font-size:1.5em
+  }
+  #Title_About {
+    font-size: 50px;
+  }
+  #Image_1 {
+  margin-top: 25px ;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  #Text_1 {
+    margin-top: 30px
+  }
+  #Nam {
+    margin-top:15px;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    body { 
+     font-size: 1.2em;      
+  }
+  #Title_About {
+    font-size: 50px;
+  }
+  #Image_1 {
+    margin-top: 25px ;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #Home {
+    height: 500px;
+    font-size: 0.7em;
+  }
+}
+@media only screen and (max-width: 376px) {
+   body { 
+     font-size: 1em;
+     padding:0;      
+  }
+  .container {
+      margin-right:0;
+      margin-left:0;
+    }
+  #Home {
+    height: 500px;
+  }
+  #Quote {
+    font-size: 3em;
+  }
+  #About {
+    font-size:1.5em
+  }
+  #Title_About {
+    font-size: 30px;
+  }
+  #Image_1 {
+    margin-top: 25px ;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #Text_1 {
+    margin-top: 30px
+  }
+  #Nam {
+    margin-top:15px;
+  }
+  #Title_Portofolio {
+    font-size:30px;
+  }
+  #Title_Contact {
+    font-size:30px;
+  }
+}
+/*End Mobile*/
