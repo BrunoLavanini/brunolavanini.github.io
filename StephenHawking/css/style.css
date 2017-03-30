@@ -66,8 +66,17 @@ body {
   font-family:"Times New Roman",Times,serif;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 570px) and (min-width: 400px) {
   #Box {
     margin:0;
   }
+}
+@media (max-width: 400px) {
+  #Box {
+    margin:0;
+  }
+  body{
+    zoom: 0.8;
+     -moz-transform: scale(0.8);
+     -moz-transform-origin: 0 0;
 }
